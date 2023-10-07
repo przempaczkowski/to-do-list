@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100vw;
+    height: 100vw;
+    background: linear-gradient(to top, rgb(68, 85, 179) 60%, rgb(95, 11, 91)); 
+}
+header {
+    display: flex;
+    margin-top: 5rem;   
+    justify-content: center;
+    align-content: center;
+}
+.create {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+#create-to-do {
+    margin: 2rem;
+    
+}
+button {
+    margin: 3rem;
+    width: 100px;
+    height: 20px;
+}
+li {
+    background-color: rgb(98, 104, 89);
+}
